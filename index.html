@@ -5,115 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css Layout Masterclas</title>
     <link rel="stylesheet" href="/styles/style.scss" />
-    <!-- <link rel="stylesheet" href="style.css" /> -->
     <script
       src="https://kit.fontawesome.com/2a14826882.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <div class="container">
-      <div class="contents">
-        <div class="content">
-          <div class="content__first-header">
-            <span class="header-title">s</span>
-            <div class="header-group">
-              <span class="header-rate">4.98</span>
-              <span class="header-review">best review</span>
+    <header class="header">
+      <nav class="header__nav">
+        <ul>
+          <li class="header__tab">
+            <i class="fa-solid fa-bars" style="font-size: 25px"></i>
+          </li>
+          <li class="header__tab">Best Sellers</li>
+          <li class="header__tab">Hand Sanitizer</li>
+          <li class="header__tab">Hand Cream</li>
+          <li class="header__tab">Refills</li>
+          <li class="header__tab">H∧∧N</li>
+          <li class="header__tab">Toothpaste</li>
+          <li class="header__tab">Hand Soap</li>
+          <li class="header__tab">Combos</li>
+          <li class="header__tab"><i class="fa-solid fa-user"></i></li>
+          <li class="header__tab">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__breadcrumbs">
+        <span class="header__crumb">Home /</span>
+        <span class="header__crumb">Catalog /</span>
+        <span class="header__crumb">Hand Soap /</span>
+        <span class="header__crumb header__crumb--inverted">Shampoo</span>
+      </div>
+    </header>
+    <section class="product">
+      <div class="product__img"></div>
+      <div class="product__info">
+        <div class="product__header">
+          <span class="product__category">Hand Soap</span>
+          <h1 class="product__title">Sunset Fleur</h1>
+          <div class="product__add-to-cart">
+            <div class="product__qty">
+              <span class="product__minus">-</span>
+              <span class="product__total-qty">1</span>
+              <span class="product__plus">+</span>
             </div>
-          </div>
-          <div class="content__first-main">
-            <h1 class="main-title">DuH!</h1>
-          </div>
-          <div class="content__first-footer">
-            <span class="footer-title"
-              >3d illustrations for digital 😀 designers</span
-            >
-            <span class="footer-subtitle">and agencies! 🔥🔥🔥 For you!!</span>
+            <span class="product__price">$11,90</span>
           </div>
         </div>
-        <div class="content">
-          <img src="" class="content__second-img" />
-          <div class="content__second-tabs">
-            <div class="content__second-tab1-tab2">
-              <div class="content__second-tab1">
-                <button class="tab1-left"></button>
-                <div class="tab1-rights">
-                  <span class="tab1-right">recent</span>
-                  <span class="tab1-right">collaborations</span>
-                </div>
-              </div>
-              <div class="content__second-tab2">
-                <span class="tab2"> cbp2 </span>
-              </div>
-            </div>
-            <div class="content__second-tab3">
-              <span class="tab3">more cases</span>
-            </div>
+        <div class="product__footer">
+          <div class="product__description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              quam eaque deserunt. Ullam, dignissimos corrupti officia
+              voluptatum facilis iusto accusamus! Dolorum excepturi quae placeat
+              quasi ex magni assumenda ullam blanditiis.
+            </p>
           </div>
-        </div>
-        <div class="content">
-          <div class="content__third">
-            <div class="content__third-categories">
-              <span class="about">about</span>
-              <span class="solutions">solutions</span>
-              <span class="portfolio">portfolio</span>
-              <span class="blog">blog</span>
-            </div>
-
-            <div class="circles__outline">
-              <div class="circles__middleline">
-                <div class="circles__inline"></div>
-              </div>
-            </div>
-
-            <div class="content__third-footer">
-              <span class="footer">hire us</span>
-            </div>
-          </div>
-          <div class="content__third-img"></div>
-        </div>
-        <div class="content">
-          <div class="content__fourth-img1"></div>
-          <div class="content__fourth-img2"></div>
-        </div>
-        <div class="content">
-          <div class="content__fifth-header">
-            <div class="header-lefts">
-              <div class="nums">
-                <span class="left">01 / 02</span>
-              </div>
-              <div class="left-img"></div>
-            </div>
-            <div class="header-rights">
-              <div class="right-texts">
-                <span class="live">live</span>
-                <span class="preview">preview</span>
-              </div>
-              <div class="right-reload">
-                <i class="fa-solid fa-rotate-right"></i>
-              </div>
-            </div>
-          </div>
-          <div class="content__fifth-main">
-            <div class="main-texts">
-              <span class="first-line"
-                >Engage more users with stylish and modern 3d</span
-              >
-              <span class="second-line"
-                >illustrations. Great addition to apps, websites,
-                branding.</span
-              >
-              <div class="third-lines">
-                <span class="left"
-                  >presentations or any other design projects.</span
-                >
-                <i class="fa-solid fa-arrow-down"></i>
-              </div>
+          <div class="product__faq">
+            <div class="product__question">How to use<span>+</span></div>
+            <div class="product__question">Ingredient<span>+</span></div>
+            <div class="product__question">
+              Shipping & Payment<span>+</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
